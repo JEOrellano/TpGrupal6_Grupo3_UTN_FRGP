@@ -30,7 +30,7 @@
                 <tr>
                     <td>
                         <br />
-                        <asp:HyperLink ID="HlbtnEjercicio1" runat="server">Ejercicio 1</asp:HyperLink>
+                        <asp:HyperLink ID="HlbtnEjercicio1" runat="server" NavigateUrl="~/Ejercicio1.aspx">Ejercicio 1</asp:HyperLink>
                     </td>
                     <td>&nbsp;</td>
                 </tr>
