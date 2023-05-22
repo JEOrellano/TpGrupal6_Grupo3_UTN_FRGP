@@ -11,7 +11,12 @@ namespace TrabajoPractico6
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+          
+        }
 
+        protected void lbtnEliminarProductosSeleccionados_Click(object sender, EventArgs e)
+        {
+            Session["TablaProductoSeleccion"] = null;
         }
     }
 }

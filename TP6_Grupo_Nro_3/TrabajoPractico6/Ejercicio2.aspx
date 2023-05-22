@@ -27,6 +27,13 @@
         .auto-style6 {
             height: 23px;
         }
+        .auto-style7 {
+            width: 90px;
+            height: 22px;
+        }
+        .auto-style8 {
+            height: 22px;
+        }
     </style>
 </head>
 <body>
@@ -48,7 +55,7 @@
                 <tr>
                     <td class="auto-style5"></td>
                     <td class="auto-style6">
-                        <asp:HyperLink ID="hlbtnSelectProduct" runat="server">Seleccionar Productos</asp:HyperLink>
+                        <asp:HyperLink ID="hlbtnSelectProduct" runat="server" NavigateUrl="~/SeleccionarProductos.aspx">Seleccionar Productos</asp:HyperLink>
                     </td>
                     <td class="auto-style6"></td>
                     <td class="auto-style6"></td>
@@ -56,18 +63,18 @@
                 <tr>
                     <td class="auto-style3">&nbsp;</td>
                     <td>
-                        <asp:LinkButton ID="lbtnEliminarProductosSeleccionados" runat="server">Eliminar productos Seleccionados</asp:LinkButton>
+                        <asp:LinkButton ID="lbtnEliminarProductosSeleccionados" runat="server" OnClick="lbtnEliminarProductosSeleccionados_Click">Eliminar productos Seleccionados</asp:LinkButton>
                     </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td>
-                        <asp:HyperLink ID="hplbtnMostrarProductos" runat="server">Mostrar Productos</asp:HyperLink>
+                    <td class="auto-style7"></td>
+                    <td class="auto-style8">
+                        <asp:HyperLink ID="hplbtnMostrarProductos" runat="server" NavigateUrl="~/MostrarProductos.aspx">Mostrar Productos</asp:HyperLink>
                     </td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style8"></td>
+                    <td class="auto-style8"></td>
                 </tr>
                 <tr>
                     <td class="auto-style3">&nbsp;</td>
